@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Public IP address
-IP="40.121.18.237"
+IP="13.67.44.103"
 
 # Name to associate with public IP address
 DNSNAME="<USER-INITIALS>ingress"
