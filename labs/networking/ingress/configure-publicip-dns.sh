@@ -4,7 +4,7 @@
 IP="13.67.44.103"
 
 # Name to associate with public IP address
-DNSNAME="<USER-INITIALS>ingress"
+DNSNAME="josemari16ingress"
 
 # Get the resource-id of the public ip
 PUBLICIPID=$(az network public-ip list --query "[?ipAddress!=null]|[?contains(ipAddress, '$IP')].[id]" --output tsv)
